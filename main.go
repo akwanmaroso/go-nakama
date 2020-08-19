@@ -30,7 +30,7 @@ func main() {
 		return
 	}
 
-	codec := branca.NewBranca("akwanmarosotampan")
+	codec := branca.NewBranca("supersecretkeyyoushouldnotcommit")
 	s := service.New(db, codec)
 
 	h := handler.New(s)
